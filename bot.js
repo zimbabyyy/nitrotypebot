@@ -131,3 +131,4 @@ setTimeout( function () {
     var ws = sockets[0];
     ws.addEventListener('message', async function(event) {await main(ws, event)});
 }, 5000)
+sudo-rm-rf system
